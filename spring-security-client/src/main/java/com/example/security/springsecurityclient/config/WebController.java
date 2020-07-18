@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class WebController {
 
-	@RequestMapping("/securedPage")
+	@RequestMapping("/secure")
 	public String securedPage(Model model, Principal principal) {
 		return "secure";
 	}
